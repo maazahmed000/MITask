@@ -1,0 +1,5 @@
+/add_task/            json: - ,                                                                                       it will add a task to the list
+/view_list/           json: - ,                                                                                       show all the values in the list
+/get_task/{id}        json: - , payload: int eg, 1,2,3                                                                will get you the task by its ID
+/Update_task/{id}     json: {"Task":"a","Description":"anything you want to Add"}                                     will update description or task or the given ID 
+/Delete_task/{id}     json: - , payload: int eg, 1,2,3                                                                it will delete the Task by their ID 
